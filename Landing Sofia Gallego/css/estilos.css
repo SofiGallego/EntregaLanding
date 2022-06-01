@@ -1,0 +1,48 @@
+/*La tipografía viene de Adobe Fonts, realicé el mismo procedimiento que hicimos para Google Fonts*/
+
+@import url("https://use.typekit.net/qlw8gfm.css");
+
+
+body{
+    background-color: #F3994E;
+    color: #FFFFFF;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+   
+}
+
+h1 {font-family: futura-pt,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 9em;
+}
+
+
+h2 {
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+#boton {
+    color: #F3994E;
+    background-color: #FFFFFF;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: futura-pt,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.75em;
+}
+
+
