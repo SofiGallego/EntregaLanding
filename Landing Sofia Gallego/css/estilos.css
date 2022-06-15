@@ -4,45 +4,63 @@
 
 
 body{
-    background-color: #F3994E;
+    background-image: url(../imagen/FondoLanding.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: #FFFFFF;
     font-family: futura-pt,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    
-   
-}
-
-h1 {font-family: futura-pt,sans-serif;
     font-weight: 300;
-    font-style: normal;
+}
+
+h1 {
+    font-weight: 300;
     font-size: 9em;
+    text-align: center;
+    margin-top: 15%;
+
 }
 
-
-h2 {
-    font-family: futura-pt,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2em;
-}
 
 #boton {
+    font-family: futura-pt,sans-serif;
     color: #F3994E;
     background-color: #FFFFFF;
-    font-family: futura-pt,sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 2em;
+    text-align: right;
+    border: none;
 }
 
+header {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+justify-content: center;
+}
 a {
     color: #FFFFFF;
     text-decoration: none;
-    font-family: futura-pt,sans-serif;
     font-weight: 300;
-    font-style: normal;
     font-size: 1.75em;
+    text-align: right;
+}
+
+nav {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: right;
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    
+}
+
+nav div {
+    width: 25%;
 }
 
 
